@@ -1,6 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Six+Caps&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Oswald:wght@200..700&family=Six+Caps&display=swap");
 
 html {
   font-size: 16px;
@@ -8,6 +7,8 @@ html {
 
 h1 {
   font-family: "Six Caps", serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 5rem;
   text-align: center;
   letter-spacing: 1.2rem;
@@ -15,8 +16,14 @@ h1 {
 
 h2 {
   font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   text-transform: uppercase;
   word-spacing: 0.5rem;
+}
+
+h3 {
+  font-family: "Oswald", serif;
 }
 
 body section {
@@ -25,6 +32,8 @@ body section {
 
 #source {
   font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   border: solid;
   padding: 2px;
   letter-spacing: 0.2rem;
