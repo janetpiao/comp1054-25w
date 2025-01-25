@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Oswald:wght@200..700&family=Six+Caps&display=swap");
 
 html {
-  font-size: 16px;
+  font-size: 15px;
+  margin: 50px;
 }
 
 h1 {
@@ -26,7 +27,15 @@ h3 {
   font-family: "Oswald", serif;
 }
 
-body section {
+p {
+  text-align: justify;
+  hyphens: auto;
+  text-indent: 1.5rem;
+  margin: 0;
+}
+
+/* Set 3 columns for this article */
+body main {
   column-count: 3;
 }
 
@@ -35,7 +44,7 @@ body section {
   font-weight: 400;
   font-style: normal;
   border: solid;
-  padding: 2px;
+  padding: px;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   display: inline-block;
