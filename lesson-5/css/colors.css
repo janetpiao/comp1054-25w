@@ -1,57 +1,60 @@
 @charset "utf-8";
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
-	*, *:before, *:after {
-	box-sizing: inherit;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 html {
-	background: lightgrey url("../images/winter-birch.jpg") no-repeat top left;
-	background-size: cover;	
-	background-attachment: fixed;
-	height: 100%;
-	font-family: "Century Gothic", Futura, Helvetica, Arial, sans-serif;
-	font-size: 180%;
+  background: lightgrey url("../images/winter-birch.jpg") no-repeat top left;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  font-family: "Century Gothic", Futura, Helvetica, Arial, sans-serif;
+  font-size: 180%;
 }
 body {
-	min-height: 100%;
-	color: white;	
+  min-height: 100%;
+  color: white;
 }
 header {
-	/* STEP 1a: Go to https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool */
-	/* STEP 1b: Select a HUE using the Hue Slider */
-	/* STEP 1c: De-Saturate the colour a bit, reduce the Lightness, and make the colour slightly transparent by adjusting the Alpha. */
-	/* STEP 1d: Copy the resulting RGBa value and replace the background-color below */
-	background-color: black;
-	padding: 1% 10%;
+  /* STEP 1a: Go to https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool */
+  /* STEP 1b: Select a HUE using the Hue Slider */
+  /* STEP 1c: De-Saturate the colour a bit, reduce the Lightness, and make the colour slightly transparent by adjusting the Alpha. */
+  /* STEP 1d: Copy the resulting RGBa value and replace the background-color below */
+  background-color: rgb(76 220 225 / 80%);
+  padding: 1% 10%;
 }
 header h1 {
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	color: white;
-	/* STEP 3: Soften the <h1> element text using the opacity property */
-
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: white;
+  /* STEP 3: Soften the <h1> element text using the opacity property */
+  /* opacity: 0.8; */
 }
 main {
-	padding: 0 10%;
+  padding: 0 10%;
 }
 main h2 {
-	/* STEP 2: Set the <h2> inside the <main> to the same transparent purple, but use the HSLa colour syntax, instead */
-
-	font-size: 500%;
-	margin: 0;	
-	color: white;
+  /* STEP 2: Set the <h2> inside the <main> to the same transparent purple, but use the HSLa colour syntax, instead */
+  color: hsl(187.04deg 88.4% 66.3% / 80%);
+  font-size: 500%;
+  margin: 0;
 }
 main p {
-	margin-top: 0;
+  margin-top: 0;
 }
 footer {
-	padding: 0 10%;
+  padding: 0 10%;
 }
 footer p {
-	font-size: 60%;
-	/* STEP 4: Set the <footer> element text to the same purple as in step 1 and 2, using a combination of hexadecimal color syntax and opacity. */
-	color: white;
+  font-size: 60%;
+  /* STEP 4: Set the <footer> element text to the same purple as in step 1 and 2, using a combination of hexadecimal color syntax and opacity. */
+  color: hsl(187.04deg 88.4% 66.3% / 80%);
+  opacity: 0.48;
+  font-weight: bold;
 }
 
 /* STEP 5: Adjust the HUE of the background-color of the <header>, the colour of the <h2>, and the colour of the <footer> text to a different value - note that this is more difficult with HEX and RGB colour notation */
