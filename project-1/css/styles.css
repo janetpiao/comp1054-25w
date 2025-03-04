@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/* Google Font */
+.inknut-antiqua-bold {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: aliceblue;
+  box-sizing: border-box;
+  background-color: #333;
+  background-image: url("../images/bg.png");
+  background-size: auto;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+#container {
+  margin: 120px auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 3fr 3fr 1fr;
+  gap: 40px;
+}
+
+h1 {
+  font-family: "Inknut Antiqua", serif;
+  font-size: 4rem;
+  color: #fed740;
+}
