@@ -72,3 +72,24 @@ li:nth-of-type(even) {
 article section:last-of-type {
   background: pink;
 }
+
+/* Pseudo-Elements ::first-line / ::first-letter 
+---------------------------------------------- */
+section p::first-line {
+  font-weight: bold;
+}
+
+section p::first-letter {
+  font-size: 2em;
+}
+
+/* Pseudo-Elements ::before / ::after 
+---------------------------------------------- */
+h1::before {
+  content: "Note Start! - ";
+  color: royalblue;
+}
+h1::after {
+  content: " - Note End!";
+  color: chocolate;
+}
