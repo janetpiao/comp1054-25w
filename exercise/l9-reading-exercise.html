@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/l9-reading-exercise.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <div>
+      <label for="toggle">Toggle</label>
+
+      <input type="checkbox" id="toggle" class="visually-hidden" />
+
+      <div class="control-me"></div>
+    </div> -->
+
+    <!-- Custom Designed Radio Buttons and Checkboxes -->
+    <!-- <section>
+      <h1>Accessible Custom checkboxes with CSS only</h1>
+      <h2>"automatic" fallback for IE</h2>
+
+      <form action="#">
+        <p>
+          <input type="checkbox" id="test1" />
+          <label for="test1">Red</label>
+        </p>
+        <p>
+          <input type="checkbox" id="test2" checked="checked" />
+          <label for="test2">Yellow</label>
+        </p>
+        <p>
+          <input
+            type="checkbox"
+            id="test3"
+            checked="checked"
+            disabled="disabled"
+          />
+          <label for="test3">Green</label>
+        </p>
+        <p>
+          <input type="checkbox" id="test4" disabled="disabled" />
+          <label for="test4">Brown</label>
+        </p>
+      </form>
+
+      <p class="txtcenter">
+        <a
+          class="btn"
+          href="https://www.creativejuiz.fr/blog/en/tutorials/customize-checkbox-and-radio-button-with-css"
+          >Read the article</a
+        >
+      </p>
+
+      <p class="txtcenter">
+        Custom styles on modern browsers.<br />Classical checkboxes on IE8 and
+        lower.
+      </p>
+
+      <p class="txtcenter copy">
+        by <a href="https://twitter.com/geoffreycrofte">@geoffreycrofte</a
+        ><br />see also
+        <a href="https://codepen.io/CreativeJuiz/pen/zqKtp"
+          >Flat UI Styles for Checkboxes</a
+        >
+      </p>
+    </section> -->
+
+    <!-- Tabbed Areas -->
+    <!-- <section>
+      <div class="tabs">
+        <div class="tab">
+          <input type="radio" id="tab-1" name="tab-group-1" checked />
+          <label for="tab-1">Tab One</label>
+          <div class="content">
+            <p>Stuff for Tab One</p>
+          </div>
+        </div>
+        <div class="tab">
+          <input type="radio" id="tab-2" name="tab-group-1" />
+          <label for="tab-2">Tab Two</label>
+          <div class="content">
+            <p>Stuff for Tab Two</p>
+            <img src="//placekitten.com/200/100" />
+          </div>
+        </div>
+        <div class="tab">
+          <input type="radio" id="tab-3" name="tab-group-1" />
+          <label for="tab-3">Tab Three</label>
+          <div class="content">
+            <p>Stuff for Tab Three</p>
+            <img src="//placekitten.com/200/100" />
+          </div>
+        </div>
+      </div>
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada
+        fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
+        ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
+        egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
+        leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum
+        erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean
+        fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci,
+        sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar
+        facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor
+        neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat
+        volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis
+        luctus, metus
+      </p>
+      <div class="tabs">
+        <div class="tab">
+          <input type="radio" id="tab-4" name="tab-group-2" checked />
+          <label for="tab-4">Tab One</label>
+          <div class="content">
+            <p>Stuff for Tab One</p>
+          </div>
+        </div>
+        <div class="tab">
+          <input type="radio" id="tab-5" name="tab-group-2" />
+          <label for="tab-5">Tab Two</label>
+          <div class="content">
+            <p>Stuff for Tab Two</p>
+            <img src="http://placekitten.com/200/100" />
+          </div>
+        </div>
+        <div class="tab">
+          <input type="radio" id="tab-6" name="tab-group-2" />
+          <label for="tab-6">Tab Three</label>
+          <div class="content">You made it this far?!</div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Dropdown Menus -->
+    <!-- <section>
+      <div class="tabs">
+        <div class="tab">
+          <input type="radio" id="tab-1" name="tab-group-1" />
+          <label for="tab-1">List 1 <i>▼</i></label>
+          <div class="tab close-tab">
+            <input type="radio" id="tab-close" name="tab-group-1" />
+            <label for="tab-close">List 1 <i>▲</i></label>
+          </div>
+          <div class="content">
+            <ul>
+              <li><a href="#">Menu Item #1</a></li>
+              <li><a href="#">Menu Item #2</a></li>
+              <li><a href="#">Really Long Menu Item #3</a></li>
+              <li><a href="#">Menu Item #4</a></li>
+              <li><a href="#">Menu Item #5</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tab">
+          <input type="radio" id="tab-2" name="tab-group-1" />
+          <label for="tab-2">List 2 <i>▼</i></label>
+          <div class="tab close-tab">
+            <input type="radio" id="tab-close" name="tab-group-1" />
+            <label for="tab-close">List 2 <i>▲</i></label>
+          </div>
+          <div class="content">
+            Repeats the input and label. Gnarly, but it enables the
+            functionality.
+          </div>
+        </div>
+
+        <div class="tab">
+          <input type="radio" id="tab-3" name="tab-group-1" />
+          <label for="tab-3">List 3 <i>▼</i></label>
+          <div class="tab close-tab">
+            <input type="radio" id="tab-close" name="tab-group-1" />
+            <label for="tab-close">List 3 <i>▲</i></label>
+          </div>
+          <div class="content">
+            Worked on iOS 5. And modern browsers of course. Probably something
+            like IE 9+ too.
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Push Toggles -->
+    <!-- <section>
+      <form action="#">
+        <div class="switch">
+          <input id="switch-1" type="checkbox" class="switch-input" />
+          <label for="switch-1" class="switch-label">Switch</label>
+        </div>
+      </form>
+    </section> -->
+
+    <!-- FAQ Answer Revealing -->
+    <!-- <section>
+      <div>
+        <input type="checkbox" id="faq-1" />
+        <h2><label for="faq-1">How much?</label></h2>
+        <p>She said for $300 she'll do it.</p>
+      </div>
+
+      <div>
+        <input type="checkbox" id="faq-2" />
+        <h2><label for="faq-2">How many cans must I stack up?</label></h2>
+        <p>
+          As many as you need to wash you out from my mind and out of my
+          consciousness.
+        </p>
+        <p>
+          Pellentesque habitant morbi tristique senectus et netus et malesuada
+          fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
+          ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
+          egestas semper. Aenean ultricies mi vitae est. Mauris placerat
+          eleifend leo.
+        </p>
+      </div>
+    </section> -->
+
+    <!-- Hide the Sidebar -->
+    <section>
+      <div id="wrap">
+        <header role="banner">
+          <h1>Hide the sidebar!</h1>
+          <a
+            href="http://twitter.com/genelocklin"
+            title="follow me for more awesome shit"
+            >by @genelocklin</a
+          >
+        </header>
+
+        <nav role="navigation"></nav>
+
+        <input type="checkbox" id="width_sidebar" role="button" />
+        <label for="width_sidebar" onclick=""
+          ><span>hide the sidebar</span><span>&raquo;</span
+          ><span>&laquo;</span></label
+        >
+
+        <div role="main">
+          <article class="post">
+            <h1 itemprop="headline">Hide the Sidebar!</h1>
+            <p>Toggle the button to the right, to hide the sidebar.</p>
+            <h2>The Pandorica Opens</h2>
+            <p>
+              Father Christmas. Santa Claus. Or as I've always known him: Jeff.
+              I'm the Doctor. Well, they call me the Doctor. I don't know why. I
+              call me the Doctor too. I still don't know why. I hate yogurt.
+              It's just stuff with bits in. It's art! A statement on modern
+              society, 'Oh Ain't Modern Society Awful?'! I am the Doctor, and
+              you are the Daleks!
+            </p>
+            <h3>Planet of the Dead</h3>
+            <p>
+              Aw, you're all Mr. Grumpy Face today. You've swallowed a planet!
+              The way I see it, every life is a pile of good things and bad
+              things.&hellip;hey.&hellip;the good things don't always soften the
+              bad things; but vice-versa the bad things don't necessarily spoil
+              the good things and make them unimportant. You hate me; you want
+              to kill me! Well, go on! Kill me! KILL ME! Annihilate? No. No
+              violence. I won't stand for it. Not now, not ever, do you
+              understand me?! I'm the Doctor, the Oncoming Storm - and you
+              basically meant beat them in a football match, didn't you? It's
+              art! A statement on modern society, 'Oh Ain't Modern Society
+              Awful?'!
+            </p>
+            <h4>The Waters of Mars</h4>
+            <p>
+              The way I see it, every life is a pile of good things and bad
+              things.&hellip;hey.&hellip;the good things don't always soften the
+              bad things; but vice-versa the bad things don't necessarily spoil
+              the good things and make them unimportant. You hit me with a
+              cricket bat. Heh-haa! Super squeaky bum time! Stop talking, brain
+              thinking. Hush. I'm the Doctor, I'm worse than everyone's aunt.
+              *catches himself* And that is not how I'm introducing myself.
+            </p>
+            <h5>The Stolen Earth</h5>
+            <p>
+              Heh-haa! Super squeaky bum time! You hate me; you want to kill me!
+              Well, go on! Kill me! KILL ME! You hate me; you want to kill me!
+              Well, go on! Kill me! KILL ME! It's a fez. I wear a fez now. Fezes
+              are cool.
+            </p>
+            <h6>Amy's Choice</h6>
+            <p>
+              I'm the Doctor. Well, they call me the Doctor. I don't know why. I
+              call me the Doctor too. I still don't know why. Heh-haa! Super
+              squeaky bum time! Did I mention we have comfy chairs? I'm the
+              Doctor, I'm worse than everyone's aunt. *catches himself* And that
+              is not how I'm introducing myself.
+            </p>
+          </article>
+          <!-- /post -->
+        </div>
+        <!-- /main -->
+
+        <aside role="complimentary">
+          <h2>
+            <a href="http://twitter.com/genelocklin" title="follow gene locklin"
+              >Follow me on Twitter</a
+            >
+          </h2>
+          <p>
+            <a
+              href="https://twitter.com/share"
+              class="twitter-share-button"
+              data-size="large"
+              data-via="genelocklin"
+              data-count="none"
+              >Tweet</a
+            >
+            <a
+              href="https://twitter.com/genelocklin"
+              class="twitter-follow-button"
+              data-show-count="false"
+              data-size="large"
+              >Follow @genelocklin</a
+            >
+          </p>
+          <p>
+            Father Christmas. Santa Claus. Or as I've always known him: Jeff.
+            I'm the Doctor. Well, they call me the Doctor. I don't know why. I
+            call me the Doctor too. I still don't know why. I hate yogurt. It's
+            just stuff with bits in. It's art! A statement on modern society,
+            'Oh Ain't Modern Society Awful?'! I am the Doctor, and you are the
+            Daleks!
+          </p>
+          <p>
+            Aw, you're all Mr. Grumpy Face today. You've swallowed a planet! The
+            way I see it, every life is a pile of good things and bad
+            things.&hellip;hey.&hellip;the good things don't always soften the
+            bad things; but vice-versa the bad things don't necessarily spoil
+            the good things and make them unimportant. You hate me; you want to
+            kill me! Well, go on! Kill me! KILL ME! Annihilate? No. No violence.
+            I won't stand for it. Not now, not ever, do you understand me?! I'm
+            the Doctor, the Oncoming Storm - and you basically meant beat them
+            in a football match, didn't you? It's art! A statement on modern
+            society, 'Oh Ain't Modern Society Awful?'!
+          </p>
+        </aside>
+      </div>
+      <!-- /wrap -->
+    </section>
+  </body>
+</html>
