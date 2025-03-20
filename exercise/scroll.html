@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scroll Examples</title>
+    <style>
+      body {
+        height: 2000px; /* Make the page scrollable */
+      }
+
+      #scrollButtons {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="scrollButtons">
+      <button onclick="scrollAbsolute()">Scroll to 500px</button>
+      <button onclick="scrollRelative()">Scroll Down 100px</button>
+      <button onclick="scrollRelativeLeft()">Scroll Left 100px</button>
+      <button onclick="scrollRelativeUp()">Scroll Up 100px</button>
+      <button onclick="scrollRelativeRight()">Scroll Right 100px</button>
+    </div>
+
+    <script>
+      function scrollAbsolute() {
+        window.scroll(0, 500);
+      }
+
+      function scrollRelative() {
+        window.scrollBy(0, 100);
+      }
+
+      function scrollRelativeLeft() {
+        window.scrollBy(-100, 0);
+      }
+
+      function scrollRelativeUp() {
+        window.scrollBy(0, -100);
+      }
+
+      function scrollRelativeRight() {
+        window.scrollBy(100, 0);
+      }
+    </script>
+  </body>
+</html>
