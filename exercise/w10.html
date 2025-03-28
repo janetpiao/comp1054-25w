@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vertical Centering Demo</title>
+    <style>
+      .container {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        background-color: lightgray;
+        margin: 20px;
+        display: inline-block;
+      }
+
+      /* Using calc(50% - 1px) */
+      .box1 {
+        position: absolute;
+        top: calc(50% - 1px);
+        left: 50%;
+        width: 50px;
+        height: 2px;
+        background-color: red;
+      }
+
+      /* Using transform: translateY(-50%) */
+      .box2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 50px;
+        height: 2px;
+        background-color: blue;
+        transform: translateY(-50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p>Using <code>calc(50% - 1px)</code></p>
+      <div class="box1"></div>
+    </div>
+
+    <div class="container">
+      <p>Using <code>transform: translateY(-50%)</code></p>
+      <div class="box2"></div>
+    </div>
+  </body>
+</html>
