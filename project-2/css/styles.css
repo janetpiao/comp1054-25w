@@ -11,6 +11,16 @@ html {
 
 body {
   font-family: DM Sans, sans-serif;
+  line-height: 1.4rem;
+  color: #222;
+}
+
+/* Style links */
+a {
+  font-family: DM Sans, sans-serif;
+  text-decoration: none;
+  font-weight: bolder;
+  color: #222;
 }
 
 /* Set grid areas for the container */
@@ -82,7 +92,7 @@ main > aside:nth-of-type(1) {
 main > aside:nth-of-type(2) {
   grid-column: 1;
   grid-row: 4/8;
-  /* background-color: rgb(255, 245, 233); */
+  background-color: #fdf8fa;
   padding: 1rem;
 }
 
@@ -90,14 +100,16 @@ main > aside:nth-of-type(2) {
 main > article:nth-of-type(1) {
   grid-column: 2;
   grid-row: 1/6;
-  /* background-color: rgb(251, 151, 0); */
   padding: 1rem;
+  margin-left: 2rem;
 }
+
 main > article:nth-of-type(2) {
   grid-column: 2;
   grid-row: 6/8;
   /* background-color: rgb(251, 151, 0); */
   padding: 1rem;
+  margin-left: 2rem;
 }
 
 /* Set gird areas for the footer, and style it */
@@ -132,4 +144,37 @@ article:nth-of-type(1)::after {
   background-size: cover;
   background-position: center;
   margin-top: 4rem;
+}
+
+/* Style first articles */
+article:nth-of-type(1) h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #da2d37;
+  margin-bottom: 10px;
+}
+
+/* Style second articles */
+article:nth-of-type(2) h2 {
+  font-size: 5rem;
+  font-weight: 200;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-transform: lowercase;
+}
+
+/* Set the first letter of the second article to uppercase */
+article:nth-of-type(2) h2::first-letter {
+  text-transform: uppercase;
+}
+
+/* Style paragraphs of the second article */
+article:nth-of-type(2) p {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+article:nth-of-type(2) mark {
+  background-color: #dfd5d7;
 }
