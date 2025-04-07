@@ -34,7 +34,7 @@ a {
     "main"
     "footer";
   grid-template-rows: 160px auto 50px;
-  gap: 1rem;
+  /* gap: 1rem; */
 }
 
 /* Set gird areas for the header */
@@ -246,4 +246,33 @@ main > aside:nth-of-type(2) ul li h3::before {
 main > aside:nth-of-type(2) ul li h3,
 main > aside:nth-of-type(2) ul li p {
   margin: 0;
+}
+
+/* Style footer */
+footer p {
+  margin-top: 1rem;
+}
+
+footer p small em {
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+footer p small abbr {
+  font-weight: 600;
+  margin-left: 0.8rem;
+  text-decoration: none;
+  border: none;
+}
+
+/* Add border to the header and main */
+header {
+  border-top: 1px solid #999;
+  border-left: 1px solid #999;
+}
+
+main {
+  border-left: 1px solid #999;
+  border-bottom: 1px solid #999;
 }
