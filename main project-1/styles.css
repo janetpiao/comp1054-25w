@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* Add Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&display=swap");
+
+/* Box-sizing reset */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Global styles */
+body {
+  font-family: inter, sans-serif;
+  font-size: 16px;
+  line-height: 1.5rem;
+  color: #666;
+
+  margin: 80px auto;
+  background-color: #f1f9ff;
+}
+
+/* hide skip link */
+.skip-link {
+  position: absolute;
+  left: -1000px;
+}
+
+/* Style Separated areas */
+header,
+main > div > article > section:nth-of-type(1),
+main > div > article > section:nth-of-type(2),
+article#contribute,
+aside.profile,
+aside#styles {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ffffffe8;
+  border-radius: 40px;
+  padding: 60px;
+  margin-bottom: 40px;
+}
+footer > div {
+  background-color: #ffffffe8;
+  padding: 60px 10%;
+}
+
+/* Header styles */
+header .container {
+  text-align: center;
+}
+
+header h1 {
+  font-family: Lexend, sans-serif;
+  font-weight: bold;
+  font-size: 3.25rem;
+  margin: 0 0 3rem 0;
+}
+
+/* Navigation styles */
+nav {
+  margin-bottom: 40px;
+  display: block;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  position: static;
+  list-style-type: none;
+  margin: 0;
+  padding: 36px 10%;
+}
+
+nav ul a {
+  display: block;
+  text-decoration: none;
+  color: #666;
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  margin: 10px;
+}
