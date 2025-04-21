@@ -197,3 +197,19 @@ main > div > article > section:nth-of-type(2) ul li {
   margin: 8px 8px 8px 0;
   color: #0065c5;
 }
+
+/* Style Guidelines */
+article[id="guidelines"] p:nth-of-type(1) {
+  margin-bottom: 40px;
+}
+article[id="guidelines"] a.link-guidelines {
+  text-decoration: none;
+  color: #fff;
+  padding: 16px 32px;
+  background-color: #0065c5;
+  border-radius: 10px;
+}
+
+article[id="guidelines"] p:nth-of-type(4) {
+  margin-bottom: 40px;
+}
