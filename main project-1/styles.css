@@ -13,14 +13,19 @@ html {
 }
 
 /* Global styles */
+
 body {
   font-family: inter, sans-serif;
   font-size: 16px;
   line-height: 1.5rem;
   color: #666;
-
-  margin: 80px auto;
+  margin: 80px auto 0 auto;
   background-color: #f1f9ff;
+  background-image: url("img/css-pattern-by-magicpattern.png");
+  /* Image reference: https://www.magicpattern.design/tools/css-backgrounds */
+  background-repeat: repeat;
+  background-color: rgba(241, 249, 255, 0.95);
+  background-blend-mode: lighten;
 }
 
 /* hide skip link */
@@ -57,7 +62,21 @@ header h1 {
   font-family: Lexend, sans-serif;
   font-weight: bold;
   font-size: 3.25rem;
+  line-height: 4rem;
   margin: 0 0 3rem 0;
+  /* Apply the gradient to the H1 */
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0468c6+0,bae2ff+100 */
+  background: linear-gradient(
+    to right,
+    rgba(4, 104, 198, 1) 0%,
+    rgba(186, 226, 255, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /* STEP 2: Set the text color to transparent (dangerous) */
+  color: transparent;
+
+  /* STEP 3: Set the background-clip (and -webkit-background-clip) property to text */
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 /* Navigation styles */
