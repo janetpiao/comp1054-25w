@@ -177,3 +177,23 @@ blockquote p strong,
 blockquote a {
   color: #0065c5;
 }
+
+/* Style Main Section 2 */
+main > div > article > section:nth-of-type(2) h2 {
+  margin: 0 0 1.25rem 0;
+}
+main > div > article > section:nth-of-type(2) ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+main > div > article > section:nth-of-type(2) ul li {
+  padding: 8px 20px;
+  background-color: #eef6ff;
+  border-radius: 10px;
+  margin: 8px 8px 8px 0;
+  color: #0065c5;
+}
