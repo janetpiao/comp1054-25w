@@ -53,6 +53,11 @@ footer > div {
   padding: 60px 10%;
 }
 
+/* style general links */
+a {
+  color: #222;
+}
+
 /* Header styles */
 header .container {
   text-align: center;
@@ -61,9 +66,9 @@ header .container {
 header h1 {
   font-family: Lexend, sans-serif;
   font-weight: bold;
-  font-size: 3.25rem;
-  line-height: 4rem;
-  margin: 0 0 3rem 0;
+  font-size: 4rem;
+  line-height: 5rem;
+  margin: 4rem 0 3.13rem 0;
   /* Apply the gradient to the H1 */
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0468c6+0,bae2ff+100 */
   background: linear-gradient(
@@ -71,12 +76,42 @@ header h1 {
     rgba(4, 104, 198, 1) 0%,
     rgba(186, 226, 255, 1) 100%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  /* STEP 2: Set the text color to transparent (dangerous) */
   color: transparent;
-
-  /* STEP 3: Set the background-clip (and -webkit-background-clip) property to text */
   -webkit-background-clip: text;
   background-clip: text;
+}
+
+header h2 {
+  color: #222;
+  font-size: 36px;
+  line-height: 48px;
+  margin-bottom: 2.25rem;
+}
+
+header p {
+  margin-bottom: 3.8rem;
+}
+
+header div a.link-github {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #0065c5;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 24px 48px;
+  border-radius: 50px;
+  margin-bottom: 4rem;
+}
+
+header div a svg {
+  height: 1.2rem;
+  margin-right: 0.5rem;
+  /* Change the color of SVG. Reference site: https://codepen.io/sosuke/pen/Pjoqqp */
+  filter: invert(99%) sepia(0%) saturate(1346%) hue-rotate(250deg)
+    brightness(122%) contrast(100%);
 }
 
 /* Navigation styles */
