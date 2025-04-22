@@ -205,15 +205,17 @@ article[id="guidelines"] p:nth-of-type(1) {
   margin-bottom: 40px;
 }
 article[id="guidelines"] a.link-guidelines {
+  display: inline-block;
   text-decoration: none;
   color: #fff;
   padding: 16px 32px;
   background-color: #0065c5;
   border-radius: 10px;
+  margin-top: 40px;
 }
 
 article[id="guidelines"] p:nth-of-type(4) {
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 
 /* Style Contribute */
@@ -259,17 +261,60 @@ article[id="contribute"] section:nth-of-type(2) ol li::before {
   margin-right: 4px;
   color: #0065c5;
 }
-article[id="contribute"] footer div[class="container"] {
+
+/* Style Source Files */
+article[id="contribute"] footer div[class="container"] h3 {
+  margin: 40px 0 20px 0;
+  display: block;
 }
+
 article[id="contribute"] footer a {
-  display: inline-flex;
-  justify-content: flex-start;
+  display: inline-block;
   text-decoration: none;
   color: #0065c5;
   padding: 16px 32px;
   background: #eef6ff;
   border: 1px solid #0065c5;
   border-radius: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  margin: 0 20px 20px 0;
+}
+
+/* Style Currently Staged Style */
+aside[class="profile"] div h4 {
+  margin: 0 0 24px 0;
+}
+aside[class="profile"] div ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 20px 60px;
+  background-color: #eef6ff;
+  border-radius: 20px;
+}
+
+aside[class="profile"] div ul li {
+  margin: 8px 16px;
+  color: #0065c5;
+}
+
+aside[class="profile"] div ul li a {
+  color: #0065c5;
+}
+
+aside[class="profile"] div ul li::before {
+  content: "+";
+  margin-right: 2px;
+  color: #0065c5;
+}
+
+aside[class="profile"] div a[href="style.css"] {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 16px 32px;
+  background-color: #0065c5;
+  border-radius: 10px;
+  margin-top: 40px;
 }
