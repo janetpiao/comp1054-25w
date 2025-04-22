@@ -344,7 +344,7 @@ aside[class="profile"] div ul li::before {
   color: #0065c5;
 }
 
-aside[class="profile"] div a[href="style.css"] {
+aside[class="profile"] div a[href="styles.css"] {
   display: inline-block;
   text-decoration: none;
   color: #fff;
