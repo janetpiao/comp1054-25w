@@ -51,7 +51,7 @@ aside#styles {
 }
 
 footer > div {
-  background-color: #ffffffe8;
+  background-color: #ffffff;
   padding: 60px 10%;
 }
 
@@ -127,6 +127,12 @@ header div a.link-github {
   padding: 24px 48px;
   border-radius: 50px;
   margin-bottom: 4rem;
+}
+
+header div a span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header div a svg {
@@ -219,12 +225,12 @@ main > div > article > section:nth-of-type(2) ul {
   justify-content: flex-start;
   margin: 0;
   padding: 0;
+  gap: 10px;
 }
 main > div > article > section:nth-of-type(2) ul li {
   padding: 8px 20px;
   background-color: #eef6ff;
   border-radius: 10px;
-  margin: 8px 8px 8px 0;
   color: #0065c5;
 }
 
@@ -253,18 +259,13 @@ article[id="contribute"] div.container {
   padding: 0;
 }
 
-article[id="contribute"] section:nth-of-type(2),
-article[id="contribute"] div.container {
-  margin-top: 40px;
-}
-
 article[id="contribute"] section:nth-of-type(2) ol {
   list-style-type: none;
   counter-reset: numbers;
   padding: 20px;
   background-color: #eef6ff;
   border-radius: 10px;
-  margin: 20px 0;
+  margin-top: 20px;
   color: #0065c5;
 }
 
@@ -292,7 +293,7 @@ article[id="contribute"] section:nth-of-type(2) ol li::before {
 
 /* Style Source Files */
 article[id="contribute"] footer div[class="container"] h3 {
-  margin: 40px 0 20px 0;
+  margin: 30px 0 20px 0;
   display: block;
 }
 
@@ -436,4 +437,50 @@ aside[id="styles"] div a[class="link-allstyles"] {
   background-color: #0065c5;
   border-radius: 10px;
   margin-top: 40px;
+}
+
+/* Style Footer */
+footer[class="page-footer"] div {
+  color: #d2e9ff;
+  background-color: #003b6f;
+}
+
+footer[class="page-footer"] div ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+
+footer[class="page-footer"] div ul li {
+  padding: 8px 20px;
+  background-color: #0065c5;
+  border-radius: 10px;
+}
+
+footer[class="page-footer"] div ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer[class="page-footer"] a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer[class="page-footer"] svg {
+  height: 1rem;
+  margin-right: 0.2rem;
+  /* Change the color of SVG. Reference site: https://codepen.io/sosuke/pen/Pjoqqp */
+  filter: invert(99%) sepia(0%) saturate(1346%) hue-rotate(250deg)
+    brightness(122%) contrast(100%);
+}
+
+/* Style footer links */
+footer[class="page-footer"] div a {
+  color: #d2e9ff;
 }
