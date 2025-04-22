@@ -401,6 +401,7 @@ aside[id="styles"] div ul li:nth-of-type(3) {
     background-color: #eef6ff;
     border-radius: 10px;
     flex: 360px;
+    padding: 28px;
     min-height: 180px;
     margin: 10px 0;
   }
