@@ -262,15 +262,15 @@ article[id="contribute"] div.container {
 article[id="contribute"] section:nth-of-type(2) ol {
   list-style-type: none;
   counter-reset: numbers;
-  padding: 20px;
+  padding: 20px 20px 20px 58px;
   background-color: #eef6ff;
   border-radius: 10px;
-  margin-top: 20px;
   color: #0065c5;
 }
 
 article[id="contribute"] section:nth-of-type(2) ol li {
   margin: 12px 0;
+  position: relative;
 }
 
 article[id="contribute"] section:nth-of-type(2) ol li a {
@@ -278,17 +278,23 @@ article[id="contribute"] section:nth-of-type(2) ol li a {
 }
 
 /* style list */
+/* Reference: https://stylestage.dev/styles/purpleland/ */
 article[id="contribute"] section:nth-of-type(2) ol li::before {
   content: counter(numbers);
   counter-increment: numbers;
+  text-align: center;
+  font-size: 14px;
   height: 28px;
   width: 28px;
   padding: 4px 10px;
-  /* font-weight: bold; */
+  font-weight: bold;
   background-color: #fff;
   border-radius: 50px;
   margin-right: 4px;
   color: #0065c5;
+  position: absolute;
+  top: 0;
+  left: -38px;
 }
 
 /* Style Source Files */
